@@ -1,3 +1,0 @@
-ec2-23-20-31-19.compute-1.amazonaws.com ubuntu
-107.22.191.254 ubuntu
-ec2-107-21-167-154.compute-1.amazonaws.com ubuntu
