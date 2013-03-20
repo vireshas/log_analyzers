@@ -1,4 +1,4 @@
 log_analyzers
 =============
 
-used for log analyzers.
+internal use.
