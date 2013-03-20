@@ -1,0 +1,7 @@
+---
+Machine: true
+Nginx: false
+Rails: false
+MySQL: false
+Redis: false
+MemCached: false

@@ -1,0 +1,200 @@
+2013-02-26T09:29:20+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by VideosController#video as XML
+2013-02-26T09:29:20+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"user_agent"=>"mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)", "attribs"=>nil, "api_profile"=>"web", "vid"=>"zuGVRqy"}
+2013-02-26T09:29:20+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Rendered shared/_common_elements.xml.builder (0.7ms)
+2013-02-26T09:29:20+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Rendered shared/_video_details.xml.builder (3.6ms)
+2013-02-26T09:29:20+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Rendered videos/list.xml.builder (14.4ms)
+2013-02-26T09:29:20+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Write page /home/ubuntu/app_home/spaghetti_ruby_1.9/releases/20130224101530/sf/public/cache/web/videos/zuGVRqy.xml (0.7ms)
+2013-02-26T09:29:20+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 200 OK in 50ms (Views: 16.0ms | ActiveRecord: 25.0ms)
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started GET "/fb_app/users/mux/page/1.json" for 50.16.188.208 at 2013-02-26 09:29:21 +0000
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by MuxController#mux as JSON
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"user_remote_ip"=>"120.59.167.67", "api_profile"=>"fb_app", "page_no"=>"1"}
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Redirected to http://www.shufflefeed.com:4080/fb_app/mux/region/23424848/page/1.json
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 302 Found in 195ms (ActiveRecord: 90.8ms)
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started GET "/fb_app/users/twitter_info/access_granted.json" for 23.22.188.183 at 2013-02-26 09:29:21 +0000
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by TwitterInfosController#access_granted as JSON
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"api_profile"=>"fb_app"}
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.4ms)
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 sshd[26755]: Invalid user mythtv from 77.88.234.171
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 sshd[26755]: input_userauth_request: invalid user mythtv [preauth]
+2013-02-26T09:29:21+00:00 domU-12-31-39-00-50-A6 sshd[26755]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:23+00:00 domU-12-31-39-00-50-A6 sshd[26757]: Invalid user mythtv from 77.88.234.171
+2013-02-26T09:29:23+00:00 domU-12-31-39-00-50-A6 sshd[26757]: input_userauth_request: invalid user mythtv [preauth]
+2013-02-26T09:29:23+00:00 domU-12-31-39-00-50-A6 sshd[26757]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started POST "/fb_app/facebook/signin.json" for 23.22.188.183 at 2013-02-26 09:29:24 +0000
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by FacebookController#signin_signup as JSON
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"access_token"=>"AAAAAQRKCriABAMiLAsBSJbuRhuLZCBG1uRuSzxPez6hzSHofhuqDpbxzpjdRGSvMPE8oFoxxLQRE1qfzxpvOxdJw1TqvvpsTjTxrE78JZAIuycCEXp", "user_remote_ip"=>"101.63.195.96", "default_preferences"=>{"subscribed_on_fb_for_daily_fix"=>"true", "always_publish_fb_og_watch_action"=>"true", "always_publish_fb_og_queue_action"=>"true"}, "return_preferences"=>"true", "api_profile"=>"fb_app"}
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Started GET "/web/videos/zuVNnJ" for 23.22.188.183 at 2013-02-26 09:29:24 +0000
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Processing by VideosController#video as XML
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Parameters: {"user_agent"=>"mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)", "attribs"=>nil, "api_profile"=>"web", "vid"=>"zuVNnJ"}
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Rendered shared/_common_elements.xml.builder (0.7ms)
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Rendered shared/_video_details.xml.builder (3.7ms)
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Rendered videos/list.xml.builder (19.7ms)
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Write page /home/ubuntu/app_home/spaghetti_ruby_1.9/releases/20130224101530/sf/public/cache/web/videos/zuVNnJ.xml (0.8ms)
+2013-02-26T09:29:24+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Completed 200 OK in 52ms (Views: 21.5ms | ActiveRecord: 21.2ms)
+2013-02-26T09:29:25+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 200 OK in 1155ms (Views: 0.4ms | ActiveRecord: 299.3ms)
+2013-02-26T09:29:25+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started GET "/ipad/users/mux/update.json?last_updated_at=1361854509" for 122.167.94.133 at 2013-02-26 09:29:25 +0000
+2013-02-26T09:29:25+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by MuxController#feed_update as JSON
+2013-02-26T09:29:25+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"last_updated_at"=>"1361854509", "api_profile"=>"ipad"}
+2013-02-26T09:29:25+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Filter chain halted as :login_required rendered or redirected
+2013-02-26T09:29:25+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2013-02-26T09:29:25+00:00 domU-12-31-39-00-50-A6 sshd[26761]: Invalid user oracle from 77.88.234.171
+2013-02-26T09:29:25+00:00 domU-12-31-39-00-50-A6 sshd[26761]: input_userauth_request: invalid user oracle [preauth]
+2013-02-26T09:29:26+00:00 domU-12-31-39-00-50-A6 sshd[26761]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Started GET "/fb_app/users/twitter_info/access_granted.json" for 50.16.188.208 at 2013-02-26 09:29:27 +0000
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started GET "/fb_app/users/mux/page/1.json" for 23.22.188.183 at 2013-02-26 09:29:27 +0000
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Processing by TwitterInfosController#access_granted as JSON
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Parameters: {"api_profile"=>"fb_app"}
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by MuxController#mux as JSON
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"user_remote_ip"=>"101.63.195.96", "api_profile"=>"fb_app", "page_no"=>"1"}
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 5.4ms)
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Redirected to http://www.shufflefeed.com:4080/fb_app/mux/region/23424848/page/1.json
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 302 Found in 124ms (ActiveRecord: 71.7ms)
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 sshd[26764]: Invalid user oracle from 77.88.234.171
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 sshd[26764]: input_userauth_request: invalid user oracle [preauth]
+2013-02-26T09:29:27+00:00 domU-12-31-39-00-50-A6 sshd[26764]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:28+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started GET "/android/users/mux/update.json?last_updated_at=1361861903" for 219.76.144.44 at 2013-02-26 09:29:28 +0000
+2013-02-26T09:29:28+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by MuxController#feed_update as JSON
+2013-02-26T09:29:28+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"last_updated_at"=>"1361861903", "api_profile"=>"android"}
+2013-02-26T09:29:28+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 200 OK in 50ms (Views: 0.2ms | ActiveRecord: 37.7ms)
+2013-02-26T09:29:28+00:00 domU-12-31-39-00-50-A6 sshd[26766]: Invalid user oracle from 77.88.234.171
+2013-02-26T09:29:28+00:00 domU-12-31-39-00-50-A6 sshd[26766]: input_userauth_request: invalid user oracle [preauth]
+2013-02-26T09:29:28+00:00 domU-12-31-39-00-50-A6 sshd[26766]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:29+00:00 domU-12-31-39-00-50-A6 sshd[26768]: Invalid user user from 77.88.234.171
+2013-02-26T09:29:29+00:00 domU-12-31-39-00-50-A6 sshd[26768]: input_userauth_request: invalid user user [preauth]
+2013-02-26T09:29:30+00:00 domU-12-31-39-00-50-A6 sshd[26768]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:30+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started GET "/fb_app/videos.json?vids[]=zu_0001113644560&vids[]=zu_0001113659813&vids[]=zu_0001113515097&vids[]=zu_0001113535860&vids[]=wj_0001113411234" for 50.16.188.208 at 2013-02-26 09:29:30 +0000
+2013-02-26T09:29:30+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by VideosController#videos as JSON
+2013-02-26T09:29:30+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"vids"=>["zu_0001113644560", "zu_0001113659813", "zu_0001113515097", "zu_0001113535860", "wj_0001113411234"], "api_profile"=>"fb_app"}
+2013-02-26T09:29:30+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:30+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:30+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:30+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:30+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:30+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 200 OK in 24ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+2013-02-26T09:29:31+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started POST "/fb_app/publish_watch_action/zu_0001113659813" for 23.22.188.183 at 2013-02-26 09:29:31 +0000
+2013-02-26T09:29:31+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by FbOpenGraphWatchPostsController#create as XML
+2013-02-26T09:29:31+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"api_profile"=>"fb_app", "vid"=>"zu_0001113659813"}
+2013-02-26T09:29:31+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Rendered shared/_common_elements.xml.builder (0.6ms)
+2013-02-26T09:29:31+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Rendered shared/status_page.xml.builder (2.5ms)
+2013-02-26T09:29:31+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 202 Accepted in 26ms (Views: 4.2ms | ActiveRecord: 8.8ms)
+2013-02-26T09:29:31+00:00 domU-12-31-39-00-50-A6 sshd[26771]: Invalid user user from 77.88.234.171
+2013-02-26T09:29:31+00:00 domU-12-31-39-00-50-A6 sshd[26771]: input_userauth_request: invalid user user [preauth]
+2013-02-26T09:29:31+00:00 domU-12-31-39-00-50-A6 sshd[26771]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:33+00:00 domU-12-31-39-00-50-A6 sshd[26773]: Invalid user user from 77.88.234.171
+2013-02-26T09:29:33+00:00 domU-12-31-39-00-50-A6 sshd[26773]: input_userauth_request: invalid user user [preauth]
+2013-02-26T09:29:33+00:00 domU-12-31-39-00-50-A6 sshd[26773]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:34+00:00 domU-12-31-39-00-50-A6 sshd[26777]: Invalid user user from 77.88.234.171
+2013-02-26T09:29:34+00:00 domU-12-31-39-00-50-A6 sshd[26777]: input_userauth_request: invalid user user [preauth]
+2013-02-26T09:29:34+00:00 domU-12-31-39-00-50-A6 sshd[26777]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:35+00:00 domU-12-31-39-00-50-A6 sshd[26780]: Invalid user sybase from 77.88.234.171
+2013-02-26T09:29:35+00:00 domU-12-31-39-00-50-A6 sshd[26780]: input_userauth_request: invalid user sybase [preauth]
+2013-02-26T09:29:35+00:00 domU-12-31-39-00-50-A6 sshd[26780]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started GET "/fb_app/videos.json?vids[]=zu_0001113515097&vids[]=zu_0001113659813&vids[]=zu_0001113644560&vids[]=zu_0001113535860&vids[]=wj_0001113411234" for 50.16.188.208 at 2013-02-26 09:29:37 +0000
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by VideosController#videos as JSON
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"vids"=>["zu_0001113515097", "zu_0001113659813", "zu_0001113644560", "zu_0001113535860", "wj_0001113411234"], "api_profile"=>"fb_app"}
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 200 OK in 49ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started GET "/fb_app/videos.json?vids[]=zu_0001113535860&vids[]=zu_0001113644560&vids[]=zu_0001113659813&vids[]=zu_0001113515097&vids[]=wj_0001113411234" for 23.22.188.183 at 2013-02-26 09:29:37 +0000
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by VideosController#videos as JSON
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"vids"=>["zu_0001113535860", "zu_0001113644560", "zu_0001113659813", "zu_0001113515097", "wj_0001113411234"], "api_profile"=>"fb_app"}
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Started POST "/fb_app/users/viewed/videos/zu_0001113515097,zu_0001113659813,zu_0001113644560,zu_0001113535860,wj_0001113411234.json" for 50.16.188.208 at 2013-02-26 09:29:37 +0000
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Started POST "/fb_app/facebook/signin.json?access_token=AAAAAQRKCriABAP1y4Wuolk2uczYm30v67ZBSfZBCTOXnk3cteJiQSxuvDWvFjVvadBz999vXgdTypWjkUK5KQgebCmcuGEfmtMf9GLLAZDZD&user_remote_ip=217.55.74.68&return_preferences=true" for 50.16.188.208 at 2013-02-26 09:29:37 +0000
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Processing by HomeController#unknown_request as */*
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Parameters: {"anything"=>"fb_app/users/viewed/videos/zu_0001113515097,zu_0001113659813,zu_0001113644560,zu_0001113535860,wj_0001113411234.json"}
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Processing by FacebookController#signin_signup as JSON
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Parameters: {"access_token"=>"AAAAAQRKCriABAP1y4Wuolk2uczYm30v67ZBSfZBCTOXnk3cteJiQSxuvDWvFjVvadBz999vXgdTypWjkUK5KQgebCmcuGEfmtMf9GLLAZDZD", "user_remote_ip"=>"217.55.74.68", "return_preferences"=>"true", "api_profile"=>"fb_app"}
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Rendered shared/_common_elements.xml.builder (0.7ms)
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Rendered shared/status_page.xml.builder (11.4ms)
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Found 1/ 1 from cache
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 200 OK in 44ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started POST "/fb_app/users/viewed/videos/zu_0001113535860,zu_0001113644560,zu_0001113659813,zu_0001113515097,wj_0001113411234.json" for 23.22.188.183 at 2013-02-26 09:29:37 +0000
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by HomeController#unknown_request as */*
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"anything"=>"fb_app/users/viewed/videos/zu_0001113535860,zu_0001113644560,zu_0001113659813,zu_0001113515097,wj_0001113411234.json"}
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Rendered shared/_common_elements.xml.builder (0.6ms)
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Rendered shared/status_page.xml.builder (2.3ms)
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 sshd[26782]: Invalid user sybase from 77.88.234.171
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 sshd[26782]: input_userauth_request: invalid user sybase [preauth]
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 sshd[26782]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Completed 200 OK in 367ms (Views: 0.4ms | ActiveRecord: 128.5ms)
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Started POST "/fb_app/facebook/signin.json?access_token=AAAAAQRKCriABAGochsvGgZBvZAcBljqFYedLkTEO7DWO2ZBh339ntCuqzsP4xyYCOiKwaFdUURiUvtIcNe3YMLXlR1EZBXcp233ZCjKPrDwZDZD&user_remote_ip=91.210.122.41&return_preferences=true" for 23.22.188.183 at 2013-02-26 09:29:37 +0000
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Processing by FacebookController#signin_signup as JSON
+2013-02-26T09:29:37+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Parameters: {"access_token"=>"AAAAAQRKCriABAGochsvGgZBvZAcBljqFYedLkTEO7DWO2ZBh339ntCuqzsP4xyYCOiKwaFdUURiUvtIcNe3YMLXlR1EZBXcp233ZCjKPrDwZDZD", "user_remote_ip"=>"91.210.122.41", "return_preferences"=>"true", "api_profile"=>"fb_app"}
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Started GET "/" for 83.170.113.210 at 2013-02-26 09:29:38 +0000
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Processing by HomeController#shufl_me as HTML
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Redirected to http://shufflr.tv
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Started GET "/fb_app/users/twitter_info/access_granted.json" for 23.22.188.183 at 2013-02-26 09:29:38 +0000
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Processing by TwitterInfosController#access_granted as JSON
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Parameters: {"api_profile"=>"fb_app"}
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 6.1ms)
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Started GET "/fb_app/users/mux/page/1.json" for 50.16.188.208 at 2013-02-26 09:29:38 +0000
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Started GET "/fb_app/users/twitter_info/access_granted.json" for 23.22.188.183 at 2013-02-26 09:29:38 +0000
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Processing by MuxController#mux as JSON
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Processing by TwitterInfosController#access_granted as JSON
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Parameters: {"user_remote_ip"=>"91.210.122.41", "api_profile"=>"fb_app", "page_no"=>"1"}
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Parameters: {"api_profile"=>"fb_app"}
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3396]: Completed 200 OK in 22ms (Views: 0.3ms | ActiveRecord: 6.5ms)
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3406]: Completed 200 OK in 818ms (Views: 0.4ms | ActiveRecord: 67.3ms)
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Redirected to http://www.shufflefeed.com:4080/fb_app/mux/region/23424976/page/1.json
+2013-02-26T09:29:38+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Completed 302 Found in 231ms (ActiveRecord: 110.7ms)
+2013-02-26T09:29:39+00:00 domU-12-31-39-00-50-A6 sshd[26792]: Invalid user sybase from 77.88.234.171
+2013-02-26T09:29:39+00:00 domU-12-31-39-00-50-A6 sshd[26792]: input_userauth_request: invalid user sybase [preauth]
+2013-02-26T09:29:39+00:00 domU-12-31-39-00-50-A6 sshd[26792]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:42+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Started GET "/web/videos/zuGSR3E" for 50.16.188.208 at 2013-02-26 09:29:42 +0000
+2013-02-26T09:29:42+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Processing by VideosController#video as XML
+2013-02-26T09:29:42+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Parameters: {"user_agent"=>"sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)", "attribs"=>nil, "api_profile"=>"web", "vid"=>"zuGSR3E"}
+2013-02-26T09:29:42+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Rendered shared/_common_elements.xml.builder (0.7ms)
+2013-02-26T09:29:42+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Rendered shared/_video_details.xml.builder (3.7ms)
+2013-02-26T09:29:42+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Rendered videos/list.xml.builder (11.2ms)
+2013-02-26T09:29:42+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Write page /home/ubuntu/app_home/spaghetti_ruby_1.9/releases/20130224101530/sf/public/cache/web/videos/zuGSR3E.xml (0.8ms)
+2013-02-26T09:29:42+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Completed 200 OK in 63ms (Views: 12.9ms | ActiveRecord: 41.5ms)
+2013-02-26T09:29:43+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Started GET "/fb_app/videos.json?vids[]=zu_0001113644560&vids[]=zu_0001113659813&vids[]=zu_0001113515097&vids[]=zu_0001113535860&vids[]=wj_0001113411234" for 23.22.188.183 at 2013-02-26 09:29:43 +0000
+2013-02-26T09:29:43+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Processing by VideosController#videos as JSON
+2013-02-26T09:29:43+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Parameters: {"vids"=>["zu_0001113644560", "zu_0001113659813", "zu_0001113515097", "zu_0001113535860", "wj_0001113411234"], "api_profile"=>"fb_app"}
+2013-02-26T09:29:43+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Found 1/ 1 from cache
+2013-02-26T09:29:43+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Found 1/ 1 from cache
+2013-02-26T09:29:43+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Found 1/ 1 from cache
+2013-02-26T09:29:43+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Found 1/ 1 from cache
+2013-02-26T09:29:43+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Found 1/ 1 from cache
+2013-02-26T09:29:43+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+2013-02-26T09:29:44+00:00 domU-12-31-39-00-50-A6 sshd[26796]: Invalid user uupc from 77.88.234.171
+2013-02-26T09:29:44+00:00 domU-12-31-39-00-50-A6 sshd[26796]: input_userauth_request: invalid user uupc [preauth]
+2013-02-26T09:29:44+00:00 domU-12-31-39-00-50-A6 sshd[26796]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:46+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Started GET "/internal/login" for 174.34.162.242 at 2013-02-26 09:29:46 +0000
+2013-02-26T09:29:46+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Processing by SessionsController#new as HTML
+2013-02-26T09:29:46+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Parameters: {"api_profile"=>"internal"}
+2013-02-26T09:29:46+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Rendered sessions/new.html.erb within layouts/application (2.1ms)
+2013-02-26T09:29:46+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+2013-02-26T09:29:47+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Started GET "/fb_app/videos.json?vids[]=zu_0001113644560&vids[]=zu_0001113659813&vids[]=zu_0001113515097&vids[]=zu_0001113535860&vids[]=wj_0001113411234" for 23.22.188.183 at 2013-02-26 09:29:47 +0000
+2013-02-26T09:29:47+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Processing by VideosController#videos as JSON
+2013-02-26T09:29:47+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Parameters: {"vids"=>["zu_0001113644560", "zu_0001113659813", "zu_0001113515097", "zu_0001113535860", "wj_0001113411234"], "api_profile"=>"fb_app"}
+2013-02-26T09:29:47+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Found 1/ 1 from cache
+2013-02-26T09:29:47+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Found 1/ 1 from cache
+2013-02-26T09:29:47+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Found 1/ 1 from cache
+2013-02-26T09:29:47+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Found 1/ 1 from cache
+2013-02-26T09:29:47+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Found 1/ 1 from cache
+2013-02-26T09:29:47+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+2013-02-26T09:29:48+00:00 domU-12-31-39-00-50-A6 sshd[26799]: Invalid user uupc from 77.88.234.171
+2013-02-26T09:29:48+00:00 domU-12-31-39-00-50-A6 sshd[26799]: input_userauth_request: invalid user uupc [preauth]
+2013-02-26T09:29:48+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Started POST "/fb_app/publish_watch_action/zu_0001113535860" for 23.22.188.183 at 2013-02-26 09:29:48 +0000
+2013-02-26T09:29:48+00:00 domU-12-31-39-00-50-A6 sshd[26799]: Received disconnect from 77.88.234.171: 11: Bye Bye [preauth]
+2013-02-26T09:29:48+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Processing by FbOpenGraphWatchPostsController#create as XML
+2013-02-26T09:29:48+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Parameters: {"api_profile"=>"fb_app", "vid"=>"zu_0001113535860"}
+2013-02-26T09:29:48+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Rendered shared/_common_elements.xml.builder (0.6ms)
+2013-02-26T09:29:48+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Rendered shared/status_page.xml.builder (2.5ms)
+2013-02-26T09:29:48+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Completed 202 Accepted in 62ms (Views: 4.0ms | ActiveRecord: 43.5ms)
+2013-02-26T09:29:49+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Started GET "/zu_0001113935670" for 122.167.94.133 at 2013-02-26 09:29:49 +0000
+2013-02-26T09:29:49+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Processing by VController#shufl_me as HTML
+2013-02-26T09:29:49+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Parameters: {"vid"=>"zu_0001113935670"}
+2013-02-26T09:29:49+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Redirected to http://shufflr.tv/videos/zu_0001113935670
+2013-02-26T09:29:49+00:00 domU-12-31-39-00-50-A6 ruby[3389]: Completed 302 Found in 1ms (ActiveRecord: 0.0ms)

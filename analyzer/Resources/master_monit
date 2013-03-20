@@ -1,0 +1,29 @@
+set daemon 5
+
+check process ruby with pidfile /home/ubuntu/statsd-clients/Clients/pids/
+	start = "/home/ubuntu/statsd-clients/Wrappers/machine start"
+	stop  = "/home/ubuntu/statsd-clients/Wrappers/ stop"
+
+check process ruby with pidfile /home/ubuntu/statsd-clients/Clients/pids/
+	start = "/home/ubuntu/statsd-clients/Wrappers/ start"
+	stop  = "/home/ubuntu/statsd-clients/Wrappers/ stop"
+
+check process ruby with pidfile /home/ubuntu/statsd-clients/Clients/pids/
+	start = "/home/ubuntu/statsd-clients/Wrappers/ start"
+	stop  = "/home/ubuntu/statsd-clients/Wrappers/ stop"
+
+check process ruby with pidfile /home/ubuntu/statsd-clients/Clients/pids/
+	start = "/home/ubuntu/statsd-clients/Wrappers/ start"
+	stop  = "/home/ubuntu/statsd-clients/Wrappers/ stop"
+
+check process ruby with pidfile /home/ubuntu/statsd-clients/Clients/pids/
+	start = "/home/ubuntu/statsd-clients/Wrappers/ start"
+	stop  = "/home/ubuntu/statsd-clients/Wrappers/ stop"
+
+check process ruby with pidfile /home/ubuntu/statsd-clients/Clients/pids/
+	start = "/home/ubuntu/statsd-clients/Wrappers/ start"
+	stop  = "/home/ubuntu/statsd-clients/Wrappers/ stop"
+
+check process node with pidfile /home/ubuntu/statsd-clients/Clients/pids/
+	start = "/home/ubuntu/statsd-clients/Wrappers/ start"
+	stop  = "/home/ubuntu/statsd-clients/Wrappers/ stop"

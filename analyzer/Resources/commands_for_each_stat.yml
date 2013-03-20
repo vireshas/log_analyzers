@@ -1,0 +1,9 @@
+---
+Machine: "ruby ~/statsd-clients/Clients/MachineStatRunner.rb"
+Nginx: "parallel-ssh -i -P -t -1 -h ~/statsd-clients/Resources/nginx_hosts.txt tail -f /opt/nginx/logs/host.access.log | ruby ~/Statsd-Clients/Clients/Nginx_log_analyzer.rb"
+Rails: 
+- - "tail -f /var/log/syslogs-* | ruby ~/statsd-clients/Clients/Rails_log_analyzer \"Spaghetti\""
+  - "parallel-ssh -i -P -t -1 -h ~/statsd-clients/Resources/zorro_hosts.txt tail -f /var/www/rails/zorro/current/log/production.log | ruby ~/statsd-clients/Clients/Rails_log_analyzer \"Zorro\""
+Redis: "ruby ~/statsd-clients/Clients/Redis_client.rb"
+MySQL: "ruby ~/statsd-clients/Clients/Mysql_stats.rb"
+MemCached: "ruby ~/statsd-clients/Clients/Memcached_client.rb"

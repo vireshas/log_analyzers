@@ -1,0 +1,48 @@
+---
+name: Disk-Statistics
+sleepLimit: 60
+alertLevel: 70
+commands:
+- - ! '| df | awk ''{print $1}'' | grep -v ''^Filesystem'''
+  - ! '| df | awk ''{print $5}'' | grep -v ''^Use%'''
+
+
+---
+name: Memory-Statistics
+sleepLimit: 20
+alertLevel: 50
+commands:
+- - ! '| free -m | awk ''FNR == 2 || FNR == 4 {if($1 == "Mem:"){print "mem"} else{print
+    "swap"}}'''
+  - ! '| free -m | awk ''FNR == 2 || FNR == 4 {print ($3/$2)*100}'''
+
+
+---
+name: IO-Statistics
+sleepLimit: 60
+alertLevel: -1
+commands:
+- - ! '| iostat | awk ''{if (FNR == 3) {print substr($7,2)} if(FNR == 6) {print $2
+    "\n" $3 "\n" $4}}'''
+  - ! '| iostat | awk ''{if (FNR == 4) {print $6} if(FNR == 7) {print $2 "\n" $3 "\n"
+    $4}}'''
+
+
+---
+name: Net-Statistics
+sleepLimit: 30
+alertLevel: -1
+commands:
+- - ! '| sockstat | awk ''{print $2 "--" $3}'' | grep -v ''^PROCESS--PID'' | sort |
+    uniq'
+  - ! '| sockstat | awk ''{print $2 "--" $3}'' | grep -v ''^PROCESS--PID'' | sort |uniq
+    -c | awk ''{print $1}'''
+- - ! '| sockstat | awk ''{print $6}''| grep -v -e ''^ADDRESS'' | cut -d":" -f1-1
+    | sed ''s/\./-/g'' | sed ''s/*/all-interfaces/g'' | sort | uniq'
+  - ! '| sockstat | awk ''{print $6}''| grep -v -e ''^ADDRESS'' | cut -d":" -f1-1
+    | sed ''s/./-/g'' | sed ''s/*/all-interfaces/g'' | sort | uniq -c | awk ''{print
+    $1}'''
+- - ! '| sockstat | awk ''{print $7}'' | grep -v -e ''^FOREIGN'' -e ''^CLOSED''|sort
+    | uniq'
+  - ! '| sockstat | awk ''{print $7}'' | grep -v -e ''^FOREIGN'' -e ''^CLOSED'' |
+    sort | uniq -c | awk ''{print $1}'''
